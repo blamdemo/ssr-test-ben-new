@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: TestBenSSR
+  description: Ben SSR Template Demo
+  annotations:
+    github.com/project-slug: blamdemo/ssr-test-ben-new
+    backstage.io/github-actions-id: blamdemo/ssr-test-ben-new
+spec:
+  type: website
+  lifecycle: experimental
+  owner: guest
